@@ -61,6 +61,9 @@ body{
 }
 .header nav li a:hover{
     background-color: rgb(255, 127, 80);
+    color: black;
+    border-bottom: black;
+    border-radius: 20%;
 }
 .main{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,72aa00+19,72aa00+20,8eb92a+35,bfd255+55,72aa00+64,72aa00+64,72aa00+80,9ecb2d+100 */
