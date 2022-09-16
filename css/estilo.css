@@ -52,7 +52,7 @@ body{
     border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
-    padding: 0.7rem
+    padding: 0.7rem; 
     display: block;
     display: flex;
     flex-direction: row;
@@ -84,11 +84,17 @@ h1{
     color: black;
     text-align: center;
 }
+.button{
+-webkit-transition: font-size 1s ease;
+  transition: font-size 1s ease;
+}
 p{
     line-height: 1.5;
     padding: 1rem;
     font-family: 'Caveat', cursive;
     text-align: center;
+    animation-name: slidein;
+    animation-duration: 5s;
 }
 .main .img{
    text-align: center;
@@ -101,7 +107,7 @@ p{
 .img:hover{
     translate: 2px;
     border: white solid 2px;
-
+    border-radius: 30%;
 }
 .main .video{
     width: auto;
