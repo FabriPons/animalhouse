@@ -52,7 +52,7 @@ body{
     border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
-    padding: 0.7rem
+    padding: 0.7rem;
     display: block;
     display: flex;
     flex-direction: row;
