@@ -38,6 +38,7 @@ body{
 .header img{
     width: 240px;
 }
+
 .header nav ul{
     list-style: none;
     display: flex;
@@ -45,6 +46,7 @@ body{
     flex-wrap: wrap;
     
 }
+
 .header nav ul a{
     
     background-color: rgb(105, 105, 105);
@@ -52,11 +54,7 @@ body{
     border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
-<<<<<<< HEAD
-    padding: 0.7rem; 
-=======
-    padding: 0.7rem;
->>>>>>> animaciones
+    padding: 0.8 rem;
     display: block;
     display: flex;
     flex-direction: row;
@@ -64,11 +62,9 @@ body{
     flex-wrap: wrap;
 }
 .header nav li a:hover{
-    background-color: rgb(255, 127, 80);
-    color: black;
-    border-bottom: black;
-    border-radius: 20%;
+    background-color: rgb(255, 127, 80)
 }
+
 .main{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,72aa00+19,72aa00+20,8eb92a+35,bfd255+55,72aa00+64,72aa00+64,72aa00+80,9ecb2d+100 */
 background: #bfd255; /* Old browsers */
@@ -84,6 +80,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', end
     justify-content: center;
     
 }
+
 h1{
     text-align: center;
     padding: 1rem;
@@ -91,17 +88,12 @@ h1{
     color: black;
     text-align: center;
 }
-.button{
--webkit-transition: font-size 1s ease;
-  transition: font-size 1s ease;
-}
+
 p{
     line-height: 1.5;
     padding: 1rem;
     font-family: 'Caveat', cursive;
-    text-align: center;
-    animation-name: slidein;
-    animation-duration: 5s;
+    text-align: center
 }
 .main .img{
    text-align: center;
@@ -114,7 +106,7 @@ p{
 .img:hover{
     translate: 2px;
     border: white solid 2px;
-    border-radius: 30%;
+
 }
 .main .video{
     width: auto;
