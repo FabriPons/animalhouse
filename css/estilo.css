@@ -52,7 +52,11 @@ body{
     border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
+<<<<<<< HEAD
     padding: 0.7rem; 
+=======
+    padding: 0.7rem;
+>>>>>>> animaciones
     display: block;
     display: flex;
     flex-direction: row;
